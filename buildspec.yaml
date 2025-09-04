@@ -19,4 +19,4 @@ phases:
   post_build:
     commands:
       - echo post Building
-      - aws s3 sync ./dist s3://s3://vue-website-5858 --delete
+      - aws s3 sync ./dist s3://vue-website-5858 --delete
